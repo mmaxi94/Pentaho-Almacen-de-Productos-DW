@@ -44,7 +44,9 @@ En caso de algun error en medio de la ejecucion del proceso, se realiza el borra
 ### Requisitos previos a ejecutar:
 
 -Crear una base de datos llamada "bdAlmacen" en MS SQL Server 2014 o posterior.
+
 -Abrir el archivo kettle.properties y editar las siguientes variables con la ruta de donde se haya descargado el proyecto en su computadora: 
+
 * AI_DATASOURCE
 * AI_PROJECT_DIR
 * AI_REPORTE
@@ -54,6 +56,7 @@ En caso de algun error en medio de la ejecucion del proceso, se realiza el borra
 * BD_MSSQL_USER: ingresar su usuario de conexion para MS SQL Server
 * BD_MSSQL_PWD: ingresar la password de conexion para MS SQL Server
 -Abrir el acceso directo "Spoon_Despacho_de_Pedidos.bat" y editar la siguiente linea con la ruta de donde se haya descargado el proyecto en su computadora
+
 * set KETTLE_HOME=<directorio>\Proyecto Despacho de Pedidos
 
 ### ¿Como ejecutar el proyecto? 
